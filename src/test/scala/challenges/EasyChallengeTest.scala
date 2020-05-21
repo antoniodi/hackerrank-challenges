@@ -5,6 +5,14 @@ import org.scalatest.wordspec.AnyWordSpec
 
 class EasyChallengeTest  extends AnyWordSpec with Matchers {
 
+  "Calling series expansion" should {
+    "return the series expansion" in {
+      EasyChallenge.seriesExpansion(10, 20.0000) shouldEqual "2423600.1887"
+      EasyChallenge.seriesExpansion(10, 5.0000) shouldEqual "143.6895"
+      EasyChallenge.seriesExpansion(10, 0.5000) shouldEqual "1.6487"
+      EasyChallenge.seriesExpansion(10, -0.5000) shouldEqual "0.6065"
+    }
+  }
 
   "Calling getAbsoluteValues" should {
     "return the absolute values number list" in {
