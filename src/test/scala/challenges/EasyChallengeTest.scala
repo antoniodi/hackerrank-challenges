@@ -5,6 +5,14 @@ import org.scalatest.wordspec.AnyWordSpec
 
 class EasyChallengeTest  extends AnyWordSpec with Matchers {
 
+
+  "Calling getAbsoluteValues" should {
+    "return the absolute values number list" in {
+      EasyChallenge.getAbsoluteValues(List(1, -2, -3)) shouldEqual List(1, 2, 3)
+      EasyChallenge.getAbsoluteValues(List(2 ,-4 ,3 ,-1 ,23 ,-4 ,-54)) shouldEqual List(2 ,4 ,3 ,1 ,23 ,4 ,54)
+    }
+  }
+
   "Calling countElements" should {
     "return the correct number of elements" in {
       EasyChallenge.countElements(List(1, 2, 3)) shouldEqual 3
