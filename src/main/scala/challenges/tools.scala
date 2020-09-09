@@ -53,4 +53,9 @@ object tools {
 
     functions
   }
+
+  def read() = {
+    val stdin = scala.io.StdIn
+    Iterator.continually( stdin.readLine ).takeWhile( _ != null )
+  }
 }
