@@ -5,6 +5,12 @@ import org.scalatest.wordspec.AnyWordSpec
 
 class EasyChallengeTest  extends AnyWordSpec with Matchers {
 
+  "Calling calculate area" should {
+    "return the sum of area" in {
+//      EasyChallenge.calculateArea(List((0, 0), List(0, 1), List(1, 1), List(1, 0))) shouldEqual "4"
+    }
+  }
+
   "Calling series expansion" should {
     "return the series expansion" in {
       EasyChallenge.seriesExpansion(10, 20.0000) shouldEqual "2423600.1887"
