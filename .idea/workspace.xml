@@ -75,20 +75,7 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Gemstones">
-    <configuration name="ComputePerimeterOfPolygon" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="challenges.easy.ComputePerimeterOfPolygon" />
-      <module name="hackerrank-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day9Recursion">
     <configuration name="Day6LetsReview" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="challenges.daysOfCode.Day6LetsReview" />
       <module name="hackerrank-challenges" />
@@ -104,6 +91,19 @@
     </configuration>
     <configuration name="Day7Arrays" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="challenges.daysOfCode.Day7Arrays" />
+      <module name="hackerrank-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.daysOfCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day9Recursion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="challenges.daysOfCode.Day9Recursion" />
       <module name="hackerrank-challenges" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day9Recursion" />
         <item itemvalue="Application.Gemstones" />
         <item itemvalue="Application.FunnyString" />
         <item itemvalue="Application.Day6LetsReview" />
         <item itemvalue="Application.Day7Arrays" />
-        <item itemvalue="Application.ComputePerimeterOfPolygon" />
       </list>
     </recent_temporary>
   </component>
