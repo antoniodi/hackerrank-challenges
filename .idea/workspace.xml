@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d29eb63-e99e-4c7a-8bbf-f027ba62f96f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/challenges/easy/FunnyString.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/challenges/easy/Gemstones.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunnyString">
+  <component name="RunManager" selected="Application.Gemstones">
     <configuration name="ComputePerimeterOfPolygon" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="challenges.easy.ComputePerimeterOfPolygon" />
       <module name="hackerrank-challenges" />
@@ -115,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsOrNot" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="challenges.easy.FunctionsOrNot" />
-      <module name="hackerrank-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FunnyString" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="challenges.easy.FunnyString" />
       <module name="hackerrank-challenges" />
@@ -141,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Gemstones" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="challenges.easy.Gemstones" />
+      <module name="hackerrank-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Gemstones" />
         <item itemvalue="Application.FunnyString" />
         <item itemvalue="Application.Day6LetsReview" />
         <item itemvalue="Application.Day7Arrays" />
         <item itemvalue="Application.ComputePerimeterOfPolygon" />
-        <item itemvalue="Application.FunctionsOrNot" />
       </list>
     </recent_temporary>
   </component>
@@ -170,59 +170,63 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="600" y="225" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1598929436793" />
-    <state x="625" y="173" key="#xdebugger.evaluate" timestamp="1599628286370">
+    <state x="657" y="346" key="#xdebugger.evaluate" timestamp="1599633305686">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="625" y="173" key="#xdebugger.evaluate/0.0.1739.939@0.0.1739.939" timestamp="1599628286370" />
+    <state x="657" y="346" key="#xdebugger.evaluate/0.0.1739.939@0.0.1739.939" timestamp="1599633305686" />
     <state x="625" y="173" key="#xdebugger.evaluate/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599192703006" />
-    <state width="1696" height="307" key="GridCell.Tab.0.bottom" timestamp="1599628783030">
+    <state width="1696" height="307" key="GridCell.Tab.0.bottom" timestamp="1599702450625">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1599628783030" />
+    <state width="1696" height="307" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1599702450625" />
     <state width="1696" height="307" key="GridCell.Tab.0.bottom/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761552" />
     <state width="1696" height="249" key="GridCell.Tab.0.bottom/1920.-4.1739.939/0.0.1739.939@1920.-4.1739.939" timestamp="1599019206285" />
-    <state width="1696" height="307" key="GridCell.Tab.0.center" timestamp="1599628783027">
+    <state width="1696" height="307" key="GridCell.Tab.0.center" timestamp="1599702450625">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1599628783027" />
+    <state width="1696" height="307" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1599702450625" />
     <state width="1696" height="307" key="GridCell.Tab.0.center/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761552" />
     <state width="1696" height="249" key="GridCell.Tab.0.center/1920.-4.1739.939/0.0.1739.939@1920.-4.1739.939" timestamp="1599019206284" />
-    <state width="1696" height="307" key="GridCell.Tab.0.left" timestamp="1599628783027">
+    <state width="1696" height="307" key="GridCell.Tab.0.left" timestamp="1599702450625">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1599628783027" />
+    <state width="1696" height="307" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1599702450625" />
     <state width="1696" height="307" key="GridCell.Tab.0.left/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761551" />
     <state width="1696" height="249" key="GridCell.Tab.0.left/1920.-4.1739.939/0.0.1739.939@1920.-4.1739.939" timestamp="1599019206284" />
-    <state width="1696" height="307" key="GridCell.Tab.0.right" timestamp="1599628783029">
+    <state width="1696" height="307" key="GridCell.Tab.0.right" timestamp="1599702450625">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1599628783029" />
+    <state width="1696" height="307" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1599702450625" />
     <state width="1696" height="307" key="GridCell.Tab.0.right/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761552" />
     <state width="1696" height="249" key="GridCell.Tab.0.right/1920.-4.1739.939/0.0.1739.939@1920.-4.1739.939" timestamp="1599019206285" />
-    <state width="1696" height="307" key="GridCell.Tab.1.bottom" timestamp="1599628783033">
+    <state width="1696" height="307" key="GridCell.Tab.1.bottom" timestamp="1599702450955">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.1.bottom/0.0.1739.939@0.0.1739.939" timestamp="1599628783033" />
+    <state width="1696" height="307" key="GridCell.Tab.1.bottom/0.0.1739.939@0.0.1739.939" timestamp="1599702450955" />
     <state width="1696" height="307" key="GridCell.Tab.1.bottom/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761553" />
-    <state width="1696" height="307" key="GridCell.Tab.1.center" timestamp="1599628783031">
+    <state width="1696" height="307" key="GridCell.Tab.1.center" timestamp="1599702450955">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.1.center/0.0.1739.939@0.0.1739.939" timestamp="1599628783031" />
+    <state width="1696" height="307" key="GridCell.Tab.1.center/0.0.1739.939@0.0.1739.939" timestamp="1599702450955" />
     <state width="1696" height="307" key="GridCell.Tab.1.center/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761552" />
-    <state width="1696" height="307" key="GridCell.Tab.1.left" timestamp="1599628783031">
+    <state width="1696" height="307" key="GridCell.Tab.1.left" timestamp="1599702450955">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.1.left/0.0.1739.939@0.0.1739.939" timestamp="1599628783031" />
+    <state width="1696" height="307" key="GridCell.Tab.1.left/0.0.1739.939@0.0.1739.939" timestamp="1599702450955" />
     <state width="1696" height="307" key="GridCell.Tab.1.left/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761552" />
-    <state width="1696" height="307" key="GridCell.Tab.1.right" timestamp="1599628783032">
+    <state width="1696" height="307" key="GridCell.Tab.1.right" timestamp="1599702450955">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="307" key="GridCell.Tab.1.right/0.0.1739.939@0.0.1739.939" timestamp="1599628783032" />
+    <state width="1696" height="307" key="GridCell.Tab.1.right/0.0.1739.939@0.0.1739.939" timestamp="1599702450955" />
     <state width="1696" height="307" key="GridCell.Tab.1.right/1920.-4.1739.939/0.0.1739.939@0.0.1739.939" timestamp="1599337761553" />
     <state x="566" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1591745313800">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="566" y="296" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1591745313800" />
+    <state width="355" height="36" key="javadoc.popup.new" timestamp="1599703195951">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="355" height="36" key="javadoc.popup.new/0.0.1739.939@0.0.1739.939" timestamp="1599703195951" />
     <state x="527" y="216" key="run.anything.popup" timestamp="1599617921440">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -267,6 +271,27 @@
           <url>file://$PROJECT_DIR$/src/main/scala/challenges/easy/FunnyString.scala</url>
           <line>24</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/challenges/easy/Gemstones.scala</url>
+          <line>9</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/challenges/easy/Gemstones.scala</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/challenges/easy/Gemstones.scala</url>
+          <line>16</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
