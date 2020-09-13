@@ -4,6 +4,7 @@ object fibonacci {
 
   def main(args: Array[String]): Unit = {
     val number = fibonacciNumber( 4 )
+    val a = fibonacciNumber2( 2 )
     println(number)
   }
 
@@ -17,5 +18,9 @@ object fibonacci {
         }
       }.lastOption.getOrElse(1)
     }
+  }
+
+  def fibonacciNumber2( number: Int ): Int = {
+    List.fill(number - 1)(0).foldLeft((0,1))( (a,b) => (a._2,a._1+a._2))._1
   }
 }
